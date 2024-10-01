@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "Joy-bot",
+  "BOTNAME": "Asif_bot",
   "PREFIX": ".",
   "OPERATOR": [
-    "100065050393649",
-    "100"
+    "100062724886617",
+    ""
   ],
   "ADMINBOT": [
-    "100065050393649",
+    "100062724886617",
     ""
   ],
   "OWNER": ["100000959749712"], 
