@@ -4,7 +4,7 @@ module.exports = {
   version: "1.0.5",
   credits: "nayan",
   prefix: false,
-  permission: 2,
+  permission: 0,
   description: "out bot",
   category: "admin",
   cooldowns: 5
