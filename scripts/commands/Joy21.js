@@ -1,7 +1,7 @@
 const fs = require("fs");
 module.exports = {
   config:{
-	name: "Joy21",
+	name: "Asif30",
         version: "1.0.1",
         prefix: false,
 	permssion: 0,
@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf("😚")==0 || body.indexOf("😙")==0 || body.indexOf("🙃")==0 || body.indexOf("😷")==0) {
 		var msg = {
-				body: "চেয়েছিলাম সবসময় ভালোবাস্তে কিন্তু\n বিরক্তির কারণ হয়ে যাবো কখন ভাবিনি🙃😅\n\n𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "চেয়েছিলাম সবসময় ভালোবাস্তে কিন্তু\n বিরক্তির কারণ হয়ে যাবো কখন ভাবিনি🙃😅\n\n𝐌𝐃 Asif Ahmed Niloy",
 				attachment: fs.createReadStream(__dirname + `/Joy/joyefa1.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
