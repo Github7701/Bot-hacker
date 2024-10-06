@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf("pagol")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("pagol")==0) {
 		var msg = {
 				body: "═────🥰🥰────═\n- 🥀❝অনেক!!ইচ্ছে!!করে,♡︎🙂\nღ-❝তোমায়!! খুব!! শক্ত!! ❝করে!! জড়িয়ে!!\nধরে!! বলিᢀ!!࿐😘💋😍🥀\nღ-❝ভালোবাসি!! তোমায়!! ❝নিজের!!\nচেয়েও!! বেশিᢀ!!࿐😻🌺\n\n𝐌𝐃 ASIF Ahmed Niloy",
-				attachment: fs.createReadStream(__dirname + `/Joy/tafriyaefa.mp4`)
+				attachment: fs.createReadStream(__dirname + `/https://i.imgur.com/7N9k9Qf.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("💚", event.messageID, (err) => {}, true)
