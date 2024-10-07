@@ -17,7 +17,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
 	if (body.indexOf("bye")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🌺")==0) {
-		var msg = "
+		var msg = {
 				body: "___ღ۵-🦋🌺🦋\nসেই মানুষটাকে জীবনে রেখে দাও🌸🥀..||\nযেই মানুষটা শত ব্যস্ততার মাঝেও তোমাকে মনে রাখে🥰C🤗..||\n🌻.প্রিয় সারাজীবন এইভাবে পাশে থেকো🥰\n\n𝐌𝐃 ASIF Ahmed Niloy",
 				attachment: fs.createReadStream(__dirname + `/Joy/Joy.mp4`)
 			}
