@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/nFzCt9v.mp4',
+      'https://i.imgur.com/SoNdFzr.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("🙂")==0 || body.indexOf("🙂")==0) {
+	if (body.indexOf(" ")==0 || body.indexOf("suna")==0) {
 		var msg = {
 				body: "❥••••আমি হারিয়ে গেলে😔༎༎ভয় নেই🥺༎༎༎
 ༎༅༎কারন ༎༅༎💔
