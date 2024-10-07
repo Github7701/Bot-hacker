@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🙂")==0) {
 		var msg = {
-				body: "কারো ফিলিংস নিয়ে মজা নিও না\nবিচ্ছেদের যন্রনা মৃত্যুর চেয়েও ভয়ংকর\n\n𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "কারো ফিলিংস নিয়ে মজা নিও না\nবিচ্ছেদের যন্রনা মৃত্যুর চেয়েও ভয়ংকর\n\n𝐌𝐃 ASIF Ahmed Niloy",
 				attachment: fs.createReadStream(__dirname + `/Joy/joy45.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
