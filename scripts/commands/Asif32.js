@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("Love")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("I love u")==0 || body.indexOf("I love you")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("i love u")==0) {
 		var msg = {
-				body: "_কিছু মানুষ বাহিরে যতটা হাসি খুশি, ভেতরে ঠিক ততটাই দুঃখ বিলাসী!😅💔",
+				body: "রেখে দাওনা আমাকে তোমার করে/nআমি থাকতে চাইই তোমার পুরোটা শহর জুড়ে..🤗🥀",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
