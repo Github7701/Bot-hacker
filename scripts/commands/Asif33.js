@@ -24,13 +24,13 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🫰")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🫰")==0) {
+	if (body.indexOf("🫰")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🥀")==0) {
 		var msg = {
 				body: "প্রত্যেকটা মানুষের দুইটা গল্প থাকে— একটা সে সবাইকে শুনায়, আরেকটা সে লু*কা*য়!💔/n MD ASIF AHMED NILOY",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🖤", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😭", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
