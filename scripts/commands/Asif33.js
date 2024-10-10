@@ -1,7 +1,7 @@
 const fs = require("fs");
 module.exports = {
   config:{
-	name: "asif",
+	name: "asif2",
         version: "1.0.1",
         prefix: false,
 	permssion: 0,
@@ -24,7 +24,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🫰")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("family")==0) {
+	if (body.indexOf("🫰")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🥀")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("family")==0) {
 		var msg = {
 				body: "•ডিপ্রে'শনে থাকা মানুষগুলো জানে-🙂/nপ্রতিটা সেকে'ন্ড প্রতিটা রা'ত তাদের জন্য কি..!😭💔🥀",
 				attachment: media
