@@ -24,9 +24,9 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🙂💔")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🖤")==0) {
+	if (body.indexOf("💔🙂")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("🖤")==0) {
 		var msg = {
-				body: "ভালোবাসা সুন্দর🖤",
+				body: "_কিছু মানুষ বাহিরে যতটা হাসি খুশি, ভেতরে ঠিক ততটাই দুঃখ বিলাসী!😅💔",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
