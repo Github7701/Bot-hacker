@@ -2,7 +2,7 @@ module.exports.config = {
   name: "info1",
   version: "1.0.1", 
   permssion: 0,
-  credits: "Md Fahim islam",
+  credits: "Md Asif Ahmed",
   prefix:true,
   description: "Admin and Bot info.",
   category: "...",
@@ -31,21 +31,21 @@ var link = ["https://i.imgur.com/coU1LjC.jpeg",
 var callback = () => api.sendMessage({body:`ADMIN AND BOT INFORMATION 
 ________________________________________
 
-❇️BOT NAME : FAHIM BOSS🤖🤖
+❇️BOT NAME : Asif BOSS🤖🤖
 
-❇️BOT ADMIN : FAHIM ISLAM 
+❇️BOT ADMIN : ASiF
 
-❇️ADDRESS: Faridpur. Dhaka, Bangladesh 
+❇️ADDRESS: Dhaka. Gazipur, Bangladesh 
 
 _____________CONTACT_____________
 
-❇️FACEBOOK ID: https://www.facebook.com/profile.php?id=100046430705172
+❇️FACEBOOK ID: https://www.facebook.com/profile.php?id=100062724886617&mibextid=ZbWKwL
 
 ❇️FACEBOOK PAGE: 👅❌
 
 ❇️BOT PREFIX : ${global.config.PREFIX}
 
-❇️BOT OWNER : {Fahim  KING} 
+❇️BOT OWNER : {ASIF KING} 
 
 OTHER NFORMATION____________________
 
