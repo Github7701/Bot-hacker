@@ -1,9 +1,9 @@
 module.exports.config = {
-  name: "zx", 
+  name: "ex", 
   version: "1.0.0", 
   permission: 2,
   credits: "SK-SIDDIK-KHAN",
-  description: "dandi khur video",
+  description: "couple video",
   prefix: true,
   category: "media", 
   usages: "user", 
